@@ -305,9 +305,19 @@ main {
 
 .event__pic {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   margin-right: 16px;
-  width: 94px;
+}
+
+.event__pic-left {
+  margin-right: 8px;
+}
+
+.event__pic-left,
+.event__pic-right {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
 }
 
 .event__game {
@@ -413,12 +423,6 @@ main {
     padding: 10px 8px 10px 4px;
   }
 
-  .event__pic {
-    width: 70px;
-    height: 36px;
-    margin-right: 10px;
-  }
-
   .event__select {
     margin: auto;
   }
@@ -437,5 +441,22 @@ main {
 
   .header {
     padding-top: 56px;
+  }
+
+  .event__pic {
+    margin-right: 10px;
+  }
+  .event__pic-left {
+    margin-right: 4px;
+  }
+  .event__pic-left,
+  .event__pic-right {
+    width: 30px;
+    height: 30px;
+  }
+
+  .event__firstinfo,
+  .event__secondinfo {
+    padding-right: 0;
   }
 }
