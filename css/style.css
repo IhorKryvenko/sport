@@ -91,7 +91,7 @@ body {
   height: 100%;
   margin: 0 30px;
   margin-top: 40px;
-  background: url(/images/bg.png), linear-gradient(transparent 30%, #300303 30%);
+  background: url(../images/bg.png), linear-gradient(transparent 30%, #300303 30%);
   background-repeat: no-repeat;
   background-position: top right;
   position: relative;
@@ -430,7 +430,7 @@ main {
 
 @media screen and (max-width: 375px) {
   .wrap {
-    background: url(/images/bg-m.png),
+    background: url(../images/bg-m.png),
       linear-gradient(transparent 30%, #300303 30%);
     background-repeat: no-repeat;
     background-position: top right;
